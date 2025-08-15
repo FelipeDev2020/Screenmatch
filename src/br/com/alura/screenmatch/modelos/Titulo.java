@@ -23,8 +23,8 @@ public class Titulo {
         totalDeAvaliacao++;
     }
 
-    public String pegaMedia(){
-        return String.format("%.1f", somaDaAvaliacao / totalDeAvaliacao);
+    public double pegaMedia(){
+        return somaDaAvaliacao / totalDeAvaliacao;
     }
 
 
